@@ -1,4 +1,5 @@
-## Introduction
+## Interview Questions
+### Introduction
 **Good morning,**
 
 My name is **Nandini Narayan Chikkatumbal**.
@@ -17,3 +18,14 @@ Coming to my family background, we are four members in our family—my mother an
 I am presently based in **Bangalore** for professional purposes.
 
 Thank you.
+
+
+### How can computer vision help in yoga guidance?
+By detecting body keypoints and joint angles, the system can compare the user’s posture with the correct pose and give feedback for correction.
+
+### You are a Java Full Stack developer. Why this project?
+Although my primary experience is in Java full-stack development, I have worked extensively on building real-time, workflow-based systems and secure applications.
+I am very interested in applying my software engineering skills to AI-based healthcare applications, and this project strongly aligns with that goal, especially in building reliable systems for elderly care.
+
+### What is Computer Vision?
+→ extracting meaningful information from images / videos
