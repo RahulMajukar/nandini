@@ -9,8 +9,9 @@
 
 **Good morning,**
 
-My name is **Nandini Narayan Chikkatumbal**.
-I am a **Java Full-Stack Developer** currently working at **Swajyot Technology, Bangalore**, with around **one year of hands-on professional experience**. I specialize in building applications using **Java Spring Boot, React, and PostgreSQL**.
+My name is **Nandini Narayan Chikkatumbal**. I am a **Java Full-Stack Developer** currently working at **Swajyot Technology, Bangalore**, with around **one year of hands-on professional experience**. I specialize in building applications using **Java Spring Boot, React, and PostgreSQL**.
+
+Along with my professional experience, during my college days I also developed a **Face Mask Detection system** using **Python, OpenCV, Keras, and TensorFlow**, where a real-time camera feed is used to detect faces and classify whether a person is wearing a mask or not using a **CNN-based deep learning model**. This project helped me gain practical exposure to **computer vision, real-time video processing, and deep learning models**, which is highly relevant to AI-based vision applications.
 
 I have completed my **Bachelor of Engineering** from **KLS VDIT, Haliyal**, and my **Diploma** from **Government Polytechnic, Hubli**.
 
@@ -20,10 +21,9 @@ Previously, I worked on the **Gauge FXS project**, which manages different types
 
 The application is implemented as a **role-based system** secured using **JWT authentication**, and is developed using **Java Spring Boot, React, and PostgreSQL**.
 
-Coming to my family background, we are four members in our family—my mother and two younger brothers, who are currently pursuing their studies.
-I am presently based in **Bangalore** for professional purposes.
+Coming to my family background, we are four members in our family—my mother and two younger brothers, who are currently pursuing their studies. I am presently based in **Bangalore** for professional purposes.
 
-Thank you.
+**Thank you.**
 
 ---
 
