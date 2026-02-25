@@ -107,6 +107,33 @@ Keras provides a **simple and high-level API** for building and training deep-le
 
 ---
 
+---
+---
+# Nandini NC - Professional Profile
+
+Hello, I am Nandini NC, I am Java Full Stack Developer with 2 years of combined experience in teaching and development.
+
+- **1 year experince AS A Java Full Stack Trainer**   
+  At Besant Technologies, Bangalore  
+  Where i use to Trained students in Java full stack development and guided them to secure jobs in software companies.
+
+- **And 1 Year as a Java Full Stack Developer At**  
+  Swajyot Technologies, Bangalore  
+  Where i use to Handled full-stack development (UI, APIs, and database) and presented product demos to clients.
+
+## While coming to my educational background i hold
+
+- **Bachelor of Engineering in Computer Science from KLS VDIT, Haliyal in the year 2021.**  
+
+- **And Diploma in Computer Science from  Government Polytechnic, Hubli in the year 2017**  
+
+
+## while coming to my Personal Background
+
+I live with my mother and two younger brothers in Hubli near Glass House. Currently, I'm based in Bangalore's Koramangala for work.
+
+---
+
 ## ✅ Can your model run in real time?
 
 Yes, the system was designed to run in **near real time** on a normal laptop webcam using OpenCV and a lightweight CNN model.
