@@ -152,3 +152,27 @@ also am very passionate about teaching
 ---
 ---
 
+# Q1: What is a Flowchart?
+
+
+Answer: A flowchart is a visual diagram using standardized symbols to represent a process, algorithm, or workflow. It shows steps, decisions, and flow direction from start to end.
+
+flowchart TD
+    A([Start]) --> B[Input Number N]
+    B --> C{N > 1?}
+    C -->|No| D[Not Prime]
+    C -->|Yes| E[i=2]
+    E --> F{i <= sqrt(N)?}
+    F -->|Yes| G{N % i == 0?}
+    G -->|Yes| D
+    G -->|No| I[i++]
+    I --> F
+    F -->|No| H[Prime]
+    D --> J([End])
+    H --> J
+
+
+---
+
+
+
