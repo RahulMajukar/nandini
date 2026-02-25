@@ -137,3 +137,20 @@ Hello, I am Nandini NC, I am Java Full Stack Developer with 2 years of combined 
 
 I live with my mother and two younger brothers in Hubli near Glass House. Currently, I'm based in Bangalore's Koramangala for work.
 
+---
+---
+---
+
+
+# Interview Answer: Why Switch to Teaching from Development?
+
+## Sample Response (Concise & Professional)
+
+"I'm currently working as a Java Full Stack Developer in Bangalore, away from my home. My mother worries about me being so far, especially since she isn't keeping well often. 
+
+Teaching roles, especially in Hubli or nearby, allow me to leverage my 2 years of development and training experience while staying home. 
+also am very passionate about teaching 
+---
+---
+---
+
