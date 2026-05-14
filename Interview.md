@@ -3,7 +3,25 @@
 ---
 
 ## Project-Based Questions
+## ✅ Introduction
 
+**Good morning,**
+
+My name is **Nandini Narayan Chikkatumbal**. I am a **Java Full-Stack Developer** currently working at **Swajyot Technology, Bangalore**, with around **three year of hands-on professional experience**. I specialize in building applications using **Java Spring Boot, React, and PostgreSQL**.
+
+Along with my professional experience, during my college days I also developed a **Face Mask Detection system** using **Python, OpenCV, Keras, and TensorFlow**, where a real-time camera feed is used to detect faces and classify whether a person is wearing a mask or not 
+
+I have completed my **Bachelor of Engineering** from **KLS VDIT, Haliyal**, and my **Diploma** from **Government Polytechnic, Hubli**.
+
+At present, I am working in swajyot technology pvt ltd am working on a project for **AGI Greenpac Ltd**, a company involved in the manufacturing of packaging solutions such as **glass containers**. In this project, we are developing a system that manages **multiple digital forms with multi-level approval workflows**. After all approvals, the system generates the final output as a **PDF document**, along with **quality inspection and validation checks** before submission.
+
+Previously, I worked on the **Gauge FXS project**, which manages different types of gauges and their **calibration schedules**. The system includes a **calendar-based scheduling module** and automated **email, SMS and WhatsApp notifications using the Twilio service** to remind users about upcoming calibrations.
+
+The application is implemented as a **role-based system** secured using **JWT authentication**, and is developed using **Java Spring Boot, React, and PostgreSQL**.
+
+Coming to my family background, we are four members in our family—my mother and two younger brothers, who are currently pursuing their studies. I am presently based in **Bangalore** for professional purposes.
+
+**Thank you.**
 ## 1. Explain GageFxs Project
 
 I worked on a system called GageFxs that helps companies manage and track equipment calibration schedules. 
@@ -47,13 +65,8 @@ I worked on both backend API development and frontend UI creation.
 
 ## Technical Questions
 
-## 1. What is Spring Boot and how is it different from Spring Framework?
 
-Spring Boot makes it easier to build Java applications. With Spring Framework, you have to manually configure many things. With Spring Boot, most things are already set up for you automatically. 
-
-Spring Boot comes with an embedded server and reduces boilerplate code, so you can focus on building features faster.
-
-## 2. How did you design REST APIs in your projects?
+## 1. How did you design REST APIs in your projects?
 
 I designed APIs by following REST principles - using proper HTTP methods (GET for reading, POST for creating, PUT for updating, DELETE for removing). 
 
@@ -61,7 +74,7 @@ Each API endpoint represents a resource (like `/documents`, `/users`), and I ret
 
 I also made sure to add pagination for large datasets, validate user input, and document the APIs properly.
 
-## 3. What is RBAC and how did you use it?
+## 2. What is RBAC and how did you use it?
 
 RBAC stands for Role-Based Access Control. It means different users have different permissions based on their role (like admin, manager, user).
 
@@ -71,7 +84,7 @@ I implemented it by:
 - Checking the role before allowing access to sensitive operations
 - Using role checks in both frontend and backend
 
-## 4. How did you handle PDF generation?
+## 3. How did you handle PDF generation?
 
 I used a PDF library to create PDF documents. The process is simple:
 - Get data from the database
@@ -80,7 +93,7 @@ I used a PDF library to create PDF documents. The process is simple:
 - Generate the PDF file
 - Send it to the user to download or email
 
-## 5. How do you design a database schema?
+## 4. How do you design a database schema?
 
 I follow normalization principles to keep the database organized:
 - Break data into separate tables by topic
@@ -90,16 +103,16 @@ I follow normalization principles to keep the database organized:
 
 For the AGI project, I created separate tables for documents, approvals, users, and roles.
 
-## 6. What is the difference between REST and GraphQL?
+## 5. What is the difference between REST and GraphQL?
 
 - **REST**: You have multiple endpoints for different data. Sometimes you get more data than you need (overfetching) or less data than you need (underfetching).
 - **GraphQL**: You have one endpoint and ask for exactly what data you need. The client decides what fields to fetch.
 
 I used REST for simple operations and GraphQL for complex data queries where flexibility was needed.
 
-## 7. How did you build responsive dashboards in React?
+## 6. How did you build responsive dashboards in React?
 
-I used React with CSS frameworks like Tailwind CSS and Bootstrap to make responsive UIs.
+I used React with CSS frameworks like Tailwind CSS to make responsive UIs.
 
 My approach:
 - Design for mobile first, then add larger screens
@@ -109,14 +122,14 @@ My approach:
 - Use React Hooks for managing component state
 - Use chart libraries to display data visually
 
-## 8. What is SSR and SSG in Next.js?
+## 7. What is SSR and SSG in Next.js?
 
 - **SSR (Server-Side Rendering)**: The page is built on the server when the user requests it. Good for pages that change frequently and need SEO.
 - **SSG (Static Site Generation)**: The page is built once at build time and served to all users. Fast and good for pages that don't change often.
 
 In the CMS project, I used SSG for blog pages (which rarely change) and SSR for admin pages (which show real-time data).
 
-## 9. How do you implement pagination for large datasets?
+## 8. How do you implement pagination for large datasets?
 
 Pagination shows data in pages instead of loading everything at once.
 
@@ -124,24 +137,27 @@ I use query parameters like `?page=1&limit=10` to tell the backend which page to
 
 This keeps performance fast even with millions of records.
 
-## 10. How did you optimize database performance?
+## 9. How did you optimize database performance?
 
 I used several techniques:
 - Added indexes on columns that are frequently searched (makes queries faster)
 - Used pagination to fetch data in chunks instead of all at once
 - Added caching for data that doesn't change often
-- Avoided N+1 query problems (fetching data in a loop - instead fetch all at once)
 - Monitored slow queries and optimized them
 
-## 11. How did you handle multiple users editing at the same time?
+## 10. What is your approach to code quality?
 
-When multiple users try to edit the same document, conflicts can happen. I prevented this by:
-- Locking documents when someone is editing them (only one person can edit at a time)
-- Using version control to track document changes
-- Keeping audit logs of who changed what and when
-- Managing transactions in the database to keep data consistent
+I follow these practices:
+- Write clean, well-documented code
+- Keep functions small and focused (do one thing well)
+- Use consistent naming conventions
+- Use tools to automatically format code (like Prettier)
+- Add comments only for complex logic
+- Review code with team members before merging
 
-## 12. Tell us about your experience building end-to-end projects
+I also use tools like ESLint and Prettier to maintain code quality. sonar as well
+
+## 11. Tell us about your experience building end-to-end projects
 
 In the CMS project, I did everything myself from start to finish:
 - Planned the system architecture
@@ -154,7 +170,7 @@ In the CMS project, I did everything myself from start to finish:
 
 This gave me complete understanding of how all parts work together.
 
-## 13. What was your biggest challenge and how did you solve it?
+## 12. What was your biggest challenge and how did you solve it?
 
 In the AGI project, the biggest challenge was building an approval workflow that could handle different approval paths for different document types.
 
@@ -164,7 +180,7 @@ I solved it by:
 - Testing with different workflow scenarios
 - Storing all rules in the database so they can be changed without code changes
 
-## 14. How do you learn new technologies?
+## 13. How do you learn new technologies?
 
 When I started using Payload CMS (a new tool), I:
 - Read the official documentation
@@ -174,7 +190,7 @@ When I started using Payload CMS (a new tool), I:
 - Asked senior developers when stuck
 - Applied the knowledge to my real project
 
-## 15. What did you learn from teaching?
+## 14. What did you learn from teaching?
 
 I taught Java and Full Stack Development at Besant Technologies. This taught me:
 - How to explain complex topics in simple ways
@@ -183,7 +199,7 @@ I taught Java and Full Stack Development at Besant Technologies. This taught me:
 - How to mentor and guide junior developers
 - It reinforced my own fundamentals
 
-## 16. Why did you choose Java Full Stack development?
+## 15. Why did you choose Java Full Stack development?
 
 I chose this because:
 - Java is widely used in companies and has great job opportunities
@@ -196,46 +212,18 @@ I chose this because:
 
 ## Problem-Solving & Design Questions
 
-## 17. How would you design a scalable document management system?
 
-To build a scalable system, I would consider:
-
-**Database**: Use PostgreSQL for reliable data storage and complex queries
-
-**Storage**: Use cloud storage (like AWS S3) for document files, not the database
-
-**Speed**: Add caching layer (Redis) for frequently accessed documents
-
-**Security**: Encrypt documents, control who can access what, keep audit logs
-
-**Performance**: Add indexes, use pagination, process heavy tasks in the background
-
-**Reliability**: Keep backups, have disaster recovery plan, monitor the system
-
-**Scaling**: Use load balancing to handle many users at once
-
-## 18. How would you fix a slow API?
+## 1. How would you fix a slow API?
 
 My approach:
 - Monitor the API to see which requests are slow
 - Check if the database query is the problem - if yes, add an index or optimize the query
 - Check if we're fetching too much data - if yes, use pagination
-- Check if we're doing N+1 queries (loops with database calls) - if yes, optimize to fetch all data at once
 - Add caching if the data doesn't change often
-- If the API has too much traffic, use load balancing to distribute requests
 
-## 19. What is your approach to code quality?
 
-I follow these practices:
-- Write clean code with clear variable names
-- Keep functions small and focused (do one thing well)
-- Don't repeat code - use functions and components
-- Write tests for important logic
-- Review code with team members before merging
-- Use tools to automatically format code
-- Add comments only for complex logic
 
-## 20. What are the main differences between MySQL and PostgreSQL?
+## 2. What are the main differences between MySQL and PostgreSQL?
 
 | Feature | MySQL | PostgreSQL |
 |---------|-------|-----------|
@@ -246,17 +234,8 @@ I follow these practices:
 
 I chose PostgreSQL for the CMS because it has better support for complex queries and JSON data.
 
-## 21. Explain your Git workflow
 
-We used a simple branching strategy:
-- **main** branch: Production code (deployed code)
-- **develop** branch: Testing code (where features come together)
-- **feature branches**: For building new features (e.g., `feature/user-login`)
-- **bugfix branches**: For fixing bugs (e.g., `bugfix/login-error`)
-
-Before merging, we review the code and make sure it works. Commit messages clearly explain what changed.
-
-## 22. How do you approach security in applications?
+## 3. How do you approach security in applications?
 
 I implement these security measures:
 - **Authentication**: Users log in with username and password (password is hashed)
@@ -270,7 +249,7 @@ I implement these security measures:
 
 ## Career & Growth Questions
 
-## 23. What are your career goals?
+## 1. What are your career goals?
 
 **Short term (1-2 years):**
 - Get better at system design and architecture
@@ -283,7 +262,7 @@ I implement these security measures:
 - Contribute to open-source projects
 - Build my own products
 
-## 24. How do you stay updated with new technologies?
+## 2. How do you stay updated with new technologies?
 
 I stay current by:
 - Reading tech blogs and newsletters
@@ -293,41 +272,8 @@ I stay current by:
 - Joining tech communities and forums
 - Discussing technology with other developers
 
-## 25. What is your biggest weakness and how are you improving?
+## 3. What is your biggest weakness and how are you improving?
 
 A good way to answer this:
-- Choose a real weakness (not a strength disguised as weakness)
-- Explain why it matters
-- Show concrete steps you're taking to improve
-- Example: "I wasn't strong in system design initially. I started reading case studies, solving design problems, and discussing architecture with experienced developers. Now I'm much more comfortable with design decisions."
-
----
-
-## Additional Technical Skills
-
-## 26. What state management solutions have you used?
-
-I've used:
-- **React Hooks**: useState and useContext for managing component state
-- **Context API**: For sharing data across multiple components
-- **Custom Hooks**: For reusing logic across components
-
-These solutions work well for most projects without needing extra libraries.
-
-## 27. How do you handle API errors?
-
-Error handling approach:
-- Use try-catch blocks to catch errors
-- Return proper error codes from the backend (400 for bad input, 500 for server errors)
-- Validate input on both frontend and backend
-- Show user-friendly error messages (not technical details)
-- Log errors for debugging and monitoring
-
-## 28. What tools have you used for version control and deployment?
-
-- **Git**: For version control (track code changes)
-- **GitHub**: For code repository and collaboration
-- **Linux Command Line**: For server management
-- **Deployment**: Understanding of deployment processes (deploying code to production)
-- **CI/CD**: Understanding of automated testing and deployment pipelines
+"I wasn't strong in system design initially. I started reading case studies, solving design problems, and discussing architecture with experienced developers. Now I'm much more comfortable with design decisions."
 
